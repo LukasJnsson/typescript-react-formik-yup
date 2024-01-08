@@ -1,0 +1,29 @@
+
+/* Default */
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+    background-color: #121212;
+    color: #fff;
+}
+.form-element {
+    margin-top: 2%;
+}
+
+
+/* MUI */
+.MuiFormLabel-root {
+    color: white !important;
+}
+.MuiButton-root, .MuiCheckbox-checkbox{
+    background-color: #010101 !important;
+}
+
+
+/* Formik */
+.formik-error {
+    margin-top: 0.75%;
+    color: #f56565;
+}
